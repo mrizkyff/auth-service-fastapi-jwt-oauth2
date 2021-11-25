@@ -7,3 +7,4 @@ class JwtToken(BaseModel):
     branchId : ObjectIdStr = None
     roles : str = None
     bankId : ObjectIdStr = None 
+    exp : int = 1000
